@@ -50,7 +50,8 @@ public class Bancointer {
 		String cpf = driver.findElement(By.xpath("//*[@id=\"cpf\"]")).getText();
 		String datanasc = driver.findElement(By.xpath("//*[@id=\"data_nasc\"]")).getText();	
 		
-	   
+	
+		
 	        // Abrir uma nova aba
 	 		((JavascriptExecutor)driver).executeScript("window.open()");
 	 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
